@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
-html, body {
-    overflow: hidden;
-
+body, html {
+    overflow-x: hidden; 
     font-family: 'Inter', sans-serif;
-    transition: overflow-y 0.5s;
 }
 
 .material-icons {
@@ -82,6 +80,7 @@ html, body {
 }
 
 
+
 /*SOBRE*/
 
 .sobre-content {
@@ -122,4 +121,6 @@ html, body {
     color: #D3AF8D;
 }
 
-
+::-webkit-scrollbar {
+    display: none;
+}
