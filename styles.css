@@ -10,7 +10,7 @@
 }
 
 body, html {
-    overflow-x: hidden; 
+    overflow: hidden; 
     font-family: 'Inter', sans-serif;
 }
 
@@ -119,8 +119,4 @@ body, html {
 
 .sobre-infos span {
     color: #D3AF8D;
-}
-
-::-webkit-scrollbar {
-    display: none;
 }
