@@ -18,5 +18,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Desbloqueia o scroll e torna as barras de rolagem visíveis após 3 segundos
     setTimeout(function () {
         osInstance.getElements().viewport.style.overflow = 'auto';
+
+        var descricao = document.getElementById('descricao')
+        descricao.style.display = 'flex'
+
     }, 3000);
 });
