@@ -136,7 +136,7 @@ body, html {
 
 .personagens-container {
     width: 100vw;
-    height: 200vh;
+    height: 230vh;
     position: absolute;
     top: 100vh;
     background: linear-gradient(to right, #E2554480 0.88%, #D3AF8D 98.14%);
@@ -147,35 +147,35 @@ body, html {
 }
 
 .panda {
-    width: 46%;
+    width: 55%;
     right: 0;
 }
 
 .mei {
-    width: 43%;
-    right: 40%;
+    width: 50%;
+    right: 47%;
 }
 
 .abby {
-    width: 53%;
-    top: 5rem;
-    right: 27%;
+    width: 64%;
+    top: 6%;
+    right: 31%;
 }
 
 .priya {
-    width: 47%;
-    top: 29rem;
-    right: 21%;
+    width: 56%;
+    top: 37%;
+    right: 24%;
 }
 
 .miriam {
-    width: 33%;
-    top: 38rem;
+    width: 39%;
+    top: 49%;
     right: 0;
 }
 
 .desenhos-detalhes {
-    width: 81%;
+    width: 95%;
     right: 0;
     top: 0;
 }
@@ -187,7 +187,7 @@ footer {
     height: 20vh;
     background-color: #5A0C0C;
     position: absolute;
-    top: 300vh;
+    top: 330vh;
 
     display: flex;
     align-items: center;
