@@ -209,6 +209,7 @@ button a {
     padding: 1rem 2rem;
     color: #FFF;
     font-family: 'Redichart', sans-serif;
+    transition: transform 0.3s ease;
 }
 
 button:hover {
